@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 
 
-const deve = ['534895027567198238'];
+const deve = ['519312154558464021'];
 const adminp = "-";
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
@@ -33,4 +33,5 @@ if (message.content.startsWith(adminp + 'setT')) {
 }
 });
 
-client.login('NTI3MjQ5NDAzNDg0OTYyODE2.DzjKxw.7oti52cgPpopqrsEiADsu9yR0Lk');
+client.login(process.env.BOT_TOKEN);  //لا تحط التوكن حقك هن
+
